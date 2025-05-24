@@ -513,23 +513,6 @@ body {
     color: #333;
 }
 
-.footer-section ul {
-    list-style: none;
-}
-
-.footer-section ul li {
-    margin-bottom: 5px;
-}
-
-.footer-section ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-.footer-section ul li a:hover {
-    color: #00b4d8; /* Teal color */
-}
 
 /* Contact Info section */
 .contact-info span {
@@ -539,21 +522,21 @@ body {
     color: #333;
 }
 
-.contact-info i {
-    margin-right: 5px;
-    color: #00b4d8; /* Teal color */
-}
-
 /* Follow Us section */
-.social-icons a {
-    display: inline-block;
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 5px;
+    color: #00b4d8;
+    display: block;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 14px;
     color: #333;
     transition: color 0.3s ease;
+    padding-bottom: 0.5rem;
 }
 
-.social-icons a:hover {
+.footer-section a:hover {
     color: #00b4d8; /* Teal color */
 }
 

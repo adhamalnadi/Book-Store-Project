@@ -545,6 +545,10 @@ body {
     color: #00b4d8; /* Teal color */
 }
 
+.social-icons{
+    display: flex;
+}
+
 /* Newsletter section */
 .newsletter-container {
   background-color: white;

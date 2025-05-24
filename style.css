@@ -166,6 +166,15 @@ nav a{
     padding-bottom: 10px;
 }
 
+.digital-book{
+    width: 100%;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    background-image: url('./image/banner.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /* Footer */
 

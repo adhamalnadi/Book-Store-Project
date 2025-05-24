@@ -302,6 +302,28 @@ h2{
 
 /* Footer */
 
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Ensure the footer is at the bottom of the page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the body take up at least the full viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    flex: 1; /* Allow the main content to take up remaining space */
+    padding: 20px;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -380,6 +402,24 @@ h2{
     color: #00b4d8; /* Teal color */
 }
 
+/* Newsletter section */
+.newsletter-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Heading for the newsletter section */
+.newsletter-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
 /* Newsletter form */
 .newsletter-form {
   display: flex;
@@ -430,8 +470,6 @@ h2{
     text-align: center;
     padding: 10px 0;
     background-color: #efefef;
-    /*border-bottom: 8px solid #ff0000;
-    border-right: 20px solid darkblue; */
 }
 
 .footer-bottom p {
@@ -440,7 +478,7 @@ h2{
 }
 
 .footer-bottom span {
-    color: #00b4d8; /* Teal color */
+    color: #00b4d8;
 }
 
 /* END Footer */

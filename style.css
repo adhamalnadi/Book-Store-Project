@@ -190,6 +190,10 @@ nav a{
 }
 
 /* Book list */
+.under-pp
+{
+    padding-bottom: 12%;
+}
 
 .new-arr {
     text-align: center;

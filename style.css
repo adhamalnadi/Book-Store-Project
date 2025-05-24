@@ -74,6 +74,7 @@ nav a{
       height: auto;
 }
 
+
 .learnMoreButton{
     background-color: #099da1;
     color: white;
@@ -84,6 +85,45 @@ nav a{
     padding-left: 16px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.services{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.services .card{
+    flex: 1;
+    width: 270px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 6px #099da1;
+}
+
+.card-icon{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.card-desc{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3%;
 }
 
 .about{

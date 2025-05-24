@@ -125,7 +125,7 @@ nav a{
 .reviews{
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding: 5rem;
     column-gap: 20px;
 }
 

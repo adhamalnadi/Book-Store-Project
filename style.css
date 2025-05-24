@@ -77,6 +77,35 @@ nav a{
     font-size: 16px;
     cursor: pointer;
 }
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.about img{
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+}
+
+.about div{
+    flex: 1;
+    padding-left: 2.5rem;
+    width: 37%;
+}
+
+.about div h2{
+    font-size: 40px;
+}
+
+.about div p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 
 /* Footer */
 

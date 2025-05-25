@@ -37,12 +37,6 @@ nav a{
       color: #333;
 }
 
-
-
-
-
-
-
 .welcome{
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +54,7 @@ nav a{
       flex: 1;
       width: 50%;
       max-width: 100%;
-      padding-left: 2%;
+      padding-left: 6rem;
       padding-top: 2rem;
     }
 
@@ -82,6 +76,7 @@ nav a{
       height: auto;
 }
 
+
 .learnMoreButton{
     background-color: #099da1;
     color: white;
@@ -94,16 +89,12 @@ nav a{
     cursor: pointer;
 }
 
-
-
-
-
-
 .services{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 2rem;
 }
 
 .services .card{
@@ -136,11 +127,6 @@ nav a{
     width: 99%;
 }
 
-
-
-
-
-
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -170,11 +156,6 @@ nav a{
     padding-bottom: 25px;
 }
 
-
-
-
-
-
 .reviews-title{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -188,7 +169,6 @@ nav a{
     justify-content: center;
     padding: 5rem;
     column-gap: 20px;
-    row-gap: 20px;
 }
 
 .reviews .card{
@@ -233,18 +213,12 @@ nav a{
     text-align: center;
 }
 
-
-
-
-
-
-
 .digital-book{
     width: 100%;
     padding-top: 14rem;
     padding-bottom: 14rem;
     background-image: url('./image/banner.jpg');
-    background-size: 100%;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -259,17 +233,9 @@ nav a{
     padding-left: 1rem;
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 11%;
-    margin-left: 7%;
+    margin-top: 10rem;
+    margin-left: 7rem;
 }
-
-
-
-
-
-
-
-
 
 /* Book list */
 .under-pp
@@ -454,24 +420,11 @@ nav a{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .our-blog{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 120px;
-    row-gap: 20px;
     padding-bottom: 3rem;
 }
 
@@ -511,26 +464,7 @@ nav a{
 
 /* END of Book list */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
-
 .main-content {
     flex: 1; /* Allow the main content to take up remaining space */
     padding: 20px;
